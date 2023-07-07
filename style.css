@@ -1,0 +1,77 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: white;
+    overflow: hidden;
+    max-width: 1440px;
+
+}
+  
+.menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.menu {
+display: flex;
+justify-content: center;
+font-size: 20px;
+align-items: center;
+gap: 40px;
+list-style: none;
+padding-left: 40%;
+cursor: pointer;
+padding-top: 3%;
+}
+.Home {
+    color: rgb(3, 109, 26);
+}
+.logo {
+    position: absolute;
+    top: 2%;
+}
+   .top-angle {
+    padding-left: 10%;
+    position: absolute;
+    top: 25%;
+    
+   } 
+   .doctor {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    right: 5%;
+     }
+   .head {
+    padding: 10%;
+    font-size: 80px;
+   }
+   .overview {
+    padding-left: 10%;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    color: rgb(109, 108, 105);
+   }
+.bottom-angle {
+    padding-left: 50%;
+    position: absolute;
+    top: 80%;
+}
+.button1 {
+    color: white;
+    background-color: rgb(76, 231, 76);
+    padding: 10px 30px;
+    border-radius: 360px;
+    position: absolute;
+    left: 10%;
+    font-size: 30px;
+    border: 1px solid rgb(60, 203, 60);
+    height: 50px;
+    width: 400px;
+}
+.mouse {
+    padding-left: 54%;
+}
